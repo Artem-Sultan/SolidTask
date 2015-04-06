@@ -1,7 +1,7 @@
 package ru.sbt.bit.ood.solid.homework.DataRetriever;
 
-import ru.sbt.bit.ood.solid.homework.RequestParameters;
-import ru.sbt.bit.ood.solid.homework.SalaryInfoEntry;
+import ru.sbt.bit.ood.solid.homework.Containers.RequestParameters;
+import ru.sbt.bit.ood.solid.homework.Containers.SalaryInfoEntry;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -32,15 +32,14 @@ public class SalaryDataRetrieverSQL implements SalaryDataRetriever {
         return resultCollection;
     }
 
-
     private void retrieveDataFromSQL(RequestParameters requestParameters) throws SQLException {
         queryStatement = connection.prepareStatement("select emp.id as emp_id, emp.name as amp_name, sum(salary) as salary from employee emp left join" +
                 "salary_payments sp on emp.id = sp.employee_id where emp.department_id = ? and" +
                 " sp.date >= ? and sp.date <= ? group by emp.id, emp.name");
         // inject parameters to sql
-        queryStatement.setString(0, requestParameters.departmentId);
-        queryStatement.setDate(1, new Date(requestParameters.dateFrom.toEpochDay()));
-        queryStatement.setDate(2, new Date(requestParameters.dateTo.toEpochDay()));
+        queryStatement.setString(0, requestParameters.getDepartmentId());
+        queryStatement.setDate(1, new Date(requestParameters.getDateFrom().toEpochDay()));
+        queryStatement.setDate(2, new Date(requestParameters.getDateTo().toEpochDay()));
         results = queryStatement.executeQuery();
     }
 

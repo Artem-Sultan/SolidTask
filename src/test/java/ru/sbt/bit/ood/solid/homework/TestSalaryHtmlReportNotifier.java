@@ -2,16 +2,12 @@ package ru.sbt.bit.ood.solid.homework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.assertEquals;
-import static org.mockito.Mockito.*;
-import static org.powermock.api.mockito.PowerMockito.whenNew;
-
 import org.mockito.ArgumentCaptor;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import ru.sbt.bit.ood.solid.homework.ReportNotifiers.ReportPublisherViaMail;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -26,17 +22,21 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Month;
 
-@RunWith(PowerMockRunner.class)
-@PrepareForTest(SalaryHtmlReportNotifier.class)
-public class TestSalaryHtmlReportNotifier {
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.*;
+import static org.powermock.api.mockito.PowerMockito.whenNew;
 
+@RunWith(PowerMockRunner.class)
+//@PrepareForTest(SalaryHtmlReportNotifier.class)
+@PrepareForTest(ReportPublisherViaMail.class)
+public class TestSalaryHtmlReportNotifier {
     @Test
     public void test() throws Exception {
         // mock database related stuff
         Connection someFakeConnection = mock(Connection.class);
         ResultSet mockResultSet = getMockedResultSet(someFakeConnection);
         when(mockResultSet.getString("emp_name")).thenReturn("John Doe", "Jane Dow");
-        when(mockResultSet.getDouble("salary")).thenReturn(100.0, 100.0, 50.0, 50.0);
+        when(mockResultSet.getDouble("salary")).thenReturn(100.0, 50.0);
         // mock mail related stuff
         MimeMessageHelper mockMimeMessageHelper = getMockedMimeMessageHelper();
 

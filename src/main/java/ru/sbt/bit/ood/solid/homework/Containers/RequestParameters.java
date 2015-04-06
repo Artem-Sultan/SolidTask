@@ -6,7 +6,7 @@ public class RequestParameters {
     private final String departmentId;
     private final LocalDate dateFrom, dateTo;
 
-    private RequestParameters(String departmentId, LocalDate dateFrom, LocalDate dateTo) {
+    public RequestParameters(String departmentId, LocalDate dateFrom, LocalDate dateTo) {
         this.departmentId = departmentId;
         this.dateFrom = dateFrom;
         this.dateTo = dateTo;

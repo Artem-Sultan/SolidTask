@@ -1,7 +1,6 @@
 package ru.sbt.bit.ood.solid.homework.ReportConfigurators;
 
-import ru.sbt.bit.ood.solid.homework.ReportConfigurators.ReportConfigurator;
-import ru.sbt.bit.ood.solid.homework.SalaryStats;
+import ru.sbt.bit.ood.solid.homework.Stats.SalaryStats;
 
 /**
  * Created by artem on 23.03.15.

@@ -1,6 +1,6 @@
 package ru.sbt.bit.ood.solid.homework.ReportConfigurators;
 
-import ru.sbt.bit.ood.solid.homework.SalaryInfoEntry;
+import ru.sbt.bit.ood.solid.homework.Containers.SalaryInfoEntry;
 
 import java.util.Collection;
 

@@ -1,7 +1,7 @@
 package ru.sbt.bit.ood.solid.homework.DataRetriever;
 
-import ru.sbt.bit.ood.solid.homework.RequestParameters;
-import ru.sbt.bit.ood.solid.homework.SalaryInfoEntry;
+import ru.sbt.bit.ood.solid.homework.Containers.RequestParameters;
+import ru.sbt.bit.ood.solid.homework.Containers.SalaryInfoEntry;
 
 import java.util.Collection;
 

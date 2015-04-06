@@ -2,6 +2,13 @@ package ru.sbt.bit.ood.solid.homework;
 
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import ru.sbt.bit.ood.solid.homework.DataRetriever.SalaryDataRetriever;
+import ru.sbt.bit.ood.solid.homework.DataRetriever.SalaryDataRetrieverSQL;
+import ru.sbt.bit.ood.solid.homework.ReportConfigurators.ReportConfigurator;
+import ru.sbt.bit.ood.solid.homework.ReportConfigurators.ReportConfiguratorHtml;
+import ru.sbt.bit.ood.solid.homework.ReportNotifiers.ReportPublisher;
+import ru.sbt.bit.ood.solid.homework.ReportNotifiers.ReportPublisherViaMail;
+import ru.sbt.bit.ood.solid.homework.Stats.SalaryStatsTotal;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -20,6 +27,23 @@ public class SalaryHtmlReportNotifier {
     }
 
     public void generateAndSendHtmlSalaryReport(String departmentId, LocalDate dateFrom, LocalDate dateTo, String recipients) {
+        //genuineMethod(departmentId, dateFrom, dateTo, recipients);
+
+        myMetgod(departmentId, dateFrom, dateTo, recipients);
+    }
+
+
+    private void myMetgod(String departmentId, LocalDate dateFrom, LocalDate dateTo, String recipients) {
+        SalaryDataRetriever salaryDataRetriever = new SalaryDataRetrieverSQL(connection);
+        ReportConfigurator reportConfigurator = new ReportConfiguratorHtml(new SalaryStatsTotal());
+        ReportPublisher reportPublisher = new ReportPublisherViaMail(recipients);
+
+        NotificationSystem notificationSystem = new NotificationSystem(salaryDataRetriever,reportConfigurator, reportPublisher);
+        notificationSystem.generateReport(departmentId,dateFrom,dateTo);
+    }
+
+
+    private void genuineMethod(String departmentId, LocalDate dateFrom, LocalDate dateTo, String recipients) {
         try {
             // prepare statement with sql
             PreparedStatement ps = connection.prepareStatement("select emp.id as emp_id, emp.name as amp_name, sum(salary) as salary from employee emp left join" +
@@ -43,6 +67,7 @@ public class SalaryHtmlReportNotifier {
                 resultingHtml.append("</tr>"); // add row end tag
                 totals += results.getDouble("salary"); // add salary to totals
             }
+
             resultingHtml.append("<tr><td>Total</td><td>").append(totals).append("</td></tr>");
             resultingHtml.append("</table></body></html>");
             // now when the report is built we need to send it to the recipients list
