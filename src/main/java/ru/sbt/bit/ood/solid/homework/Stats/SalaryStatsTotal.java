@@ -1,6 +1,6 @@
-package ru.sbt.bit.ood.solid.homework.Stats;
+package ru.sbt.bit.ood.solid.homework.stats;
 
-import ru.sbt.bit.ood.solid.homework.Containers.SalaryInfoEntry;
+import ru.sbt.bit.ood.solid.homework.SalaryData;
 
 /**
  * Created by artem on 23.03.15.
@@ -13,8 +13,8 @@ public class SalaryStatsTotal implements SalaryStats {
     }
 
     @Override
-    public void addEntryForStats(SalaryInfoEntry salaryInfoEntry) {
-        total += salaryInfoEntry.getSalary();
+    public void addEntryForStats(SalaryData salaryData) {
+        total += salaryData.getSalary();
     }
 
     @Override

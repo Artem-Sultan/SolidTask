@@ -2,13 +2,13 @@ package ru.sbt.bit.ood.solid.homework;
 
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import ru.sbt.bit.ood.solid.homework.DataRetriever.SalaryDataRetriever;
-import ru.sbt.bit.ood.solid.homework.DataRetriever.SalaryDataRetrieverSQL;
-import ru.sbt.bit.ood.solid.homework.ReportConfigurators.ReportConfigurator;
-import ru.sbt.bit.ood.solid.homework.ReportConfigurators.ReportConfiguratorHtml;
-import ru.sbt.bit.ood.solid.homework.ReportNotifiers.ReportPublisher;
-import ru.sbt.bit.ood.solid.homework.ReportNotifiers.ReportPublisherViaMail;
-import ru.sbt.bit.ood.solid.homework.Stats.SalaryStatsTotal;
+import ru.sbt.bit.ood.solid.homework.dataRetriever.SalaryDataRetriever;
+import ru.sbt.bit.ood.solid.homework.dataRetriever.SalaryDataRetrieverSQL;
+import ru.sbt.bit.ood.solid.homework.reportConfigurators.ReportFormatter;
+import ru.sbt.bit.ood.solid.homework.reportConfigurators.ReportFormatterHtml;
+import ru.sbt.bit.ood.solid.homework.reportNotifiers.MailSender;
+import ru.sbt.bit.ood.solid.homework.reportNotifiers.MailSenderImpl;
+import ru.sbt.bit.ood.solid.homework.stats.SalaryStatsTotal;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -35,11 +35,10 @@ public class SalaryHtmlReportNotifier {
 
     private void myMetgod(String departmentId, LocalDate dateFrom, LocalDate dateTo, String recipients) {
         SalaryDataRetriever salaryDataRetriever = new SalaryDataRetrieverSQL(connection);
-        ReportConfigurator reportConfigurator = new ReportConfiguratorHtml(new SalaryStatsTotal());
-        ReportPublisher reportPublisher = new ReportPublisherViaMail(recipients);
-
-        NotificationSystem notificationSystem = new NotificationSystem(salaryDataRetriever,reportConfigurator, reportPublisher);
-        notificationSystem.generateReport(departmentId,dateFrom,dateTo);
+        ReportFormatter reportFormatter = new ReportFormatterHtml(new SalaryStatsTotal());
+        MailSender mailSender = new MailSenderImpl();
+        NotificationSystem notificationSystem = new NotificationSystem(salaryDataRetriever, reportFormatter, mailSender);
+        notificationSystem.generateReport(departmentId,dateFrom,dateTo,recipients);
     }
 
 

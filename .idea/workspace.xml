@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb92189a-1470-4231-94a8-b865c76cc473" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/EMailObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSenderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterAbstract.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterHtml.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportMailFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryRequestParameters.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/RequestParameters.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/SalaryInfoEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportConfigurator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportConfiguratorAbstract.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportConfiguratorHtml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportPublisher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportPublisherViaMail.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/RequestParameters.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/RequestParameters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetriever.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetriever.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetriever.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Stats/SalaryStatsTotal.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Stats/SalaryStatsTotal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/stats/SalaryStats.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/stats/SalaryStats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/stats/SalaryStatsTotal.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/stats/SalaryStatsTotal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" afterPath="$PROJECT_DIR$/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="homework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,51 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReportConfiguratorHtml.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="840">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1020">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SalaryDataRetrieverSQL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="795">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSalaryHtmlReportNotifier.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10548523" vertical-offset="90" max-vertical-offset="945">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrepareForTest.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.6.1/powermock-core-1.6.1.jar!/org/powermock/core/classloader/annotations/PrepareForTest.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="315">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="780">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -90,38 +63,68 @@
       <file leaf-file-name="SalaryHtmlReportNotifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1200">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="1185">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportConfigurator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java">
+      <file leaf-file-name="TestSalaryHtmlReportNotifier.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.1923077" vertical-offset="0" max-vertical-offset="945">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportConfiguratorAbstract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java">
+      <file leaf-file-name="NotificationSystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="315">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportPublisherViaMail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherViaMail.java">
+      <file leaf-file-name="ReportFormatterAbstract.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterAbstract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="630">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportMailFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportMailFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MailSenderImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSenderImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,11 +132,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalaryDataRetriever.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetriever.java">
+      <file leaf-file-name="EMailObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/EMailObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaryDataRetriever.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetriever.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -163,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifierMail.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/RequestParameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportNotifierAbstract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/RequestParameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java" />
@@ -171,20 +191,31 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Stats/SalaryStatsAverage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Stats/SalaryStatsTotal.java" />
         <option value="$PROJECT_DIR$/src/test/resources/expectedReport.html" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportNotifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherMail.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherViaMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportConfiguratorHtml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/containers/SalaryInfoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/containers/SalaryRequestParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryRequestParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/EMailObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSenderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportPublisherViaMail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportMailFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
+    <option name="x" value="13" />
+    <option name="y" value="33" />
     <option name="width" value="1420" />
     <option name="height" value="808" />
   </component>
@@ -211,6 +242,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ReportNotifiers" />
+              <option name="myItemId" value="reportNotifiers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,7 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ReportConfigurators" />
+              <option name="myItemId" value="reportConfigurators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,14 +431,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataRetriever" />
+              <option name="myItemId" value="dataRetriever" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,7 +456,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.sbt.bit.ood.solid.homework.reportNotifiers" />
       <recent name="ru.sbt.bit.ood.solid.homework.ReportNotifiers" />
+      <recent name="ru.sbt.bit.ood.solid.homework" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.sbt.bit.ood.solid.homework" />
     </key>
   </component>
@@ -641,7 +676,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1420" height="808" extended-state="0" />
+    <frame x="13" y="33" width="1420" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -651,23 +686,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991881" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3991881" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -715,14 +750,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherViaMail.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java</url>
-          <line>73</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -736,7 +765,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="840">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
@@ -752,7 +781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="795">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
@@ -772,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="315">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,7 +812,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
@@ -792,7 +820,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="315">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
@@ -800,17 +828,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherViaMail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportMailFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="630">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetriever.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetriever.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="36" />
@@ -818,7 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterHtml.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="885">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
@@ -834,7 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="870">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
@@ -858,7 +884,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
@@ -866,7 +892,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="315">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
@@ -874,24 +900,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherViaMail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportMailFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/RequestParameters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryRequestParameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="390">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetriever.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetriever.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="36" />
@@ -913,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="64065">
-          <caret line="147" column="39" selection-start-line="147" selection-start-column="39" selection-end-line="147" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/3.1.3.RELEASE/spring-context-support-3.1.3.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-33.44" vertical-offset="6559" max-vertical-offset="7725">
@@ -935,14 +952,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Stats/SalaryStats.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/stats/SalaryStats.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Stats/SalaryStatsTotal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/stats/SalaryStatsTotal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -1005,58 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="585">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/SalaryInfoEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/Containers/RequestParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetriever.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfigurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorAbstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
@@ -1065,52 +1030,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/DataRetriever/SalaryDataRetrieverSQL.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.6.1/powermock-core-1.6.1.jar!/org/powermock/core/classloader/annotations/PrepareForTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="870">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="315">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportConfigurators/ReportConfiguratorHtml.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1578" max-vertical-offset="64065">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryRequestParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetriever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/dataRetriever/SalaryDataRetrieverSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="780">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportConfigurators/ReportFormatterAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/EMailObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/ReportMailFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/NotificationSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1440">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="1185">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/ReportNotifiers/ReportPublisherViaMail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/bit/ood/solid/homework/reportNotifiers/MailSenderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-core/1.6.1/powermock-core-1.6.1.jar!/org/powermock/core/classloader/annotations/PrepareForTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="315">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/sbt/bit/ood/solid/homework/TestSalaryHtmlReportNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10548523" vertical-offset="90" max-vertical-offset="945">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.1923077" vertical-offset="0" max-vertical-offset="945">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding />
         </state>
       </provider>

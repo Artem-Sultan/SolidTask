@@ -7,7 +7,7 @@ import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import ru.sbt.bit.ood.solid.homework.ReportNotifiers.ReportPublisherViaMail;
+import ru.sbt.bit.ood.solid.homework.reportNotifiers.MailSenderImpl;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
@@ -28,7 +28,7 @@ import static org.powermock.api.mockito.PowerMockito.whenNew;
 
 @RunWith(PowerMockRunner.class)
 //@PrepareForTest(SalaryHtmlReportNotifier.class)
-@PrepareForTest(ReportPublisherViaMail.class)
+@PrepareForTest(MailSenderImpl.class)
 public class TestSalaryHtmlReportNotifier {
     @Test
     public void test() throws Exception {
